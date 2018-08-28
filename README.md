@@ -177,50 +177,50 @@ The following methods are much more difficult, so only recommended for advanced 
 * [To Do Index]
 
 
-  _    _               _    
- | |  | |             | |                       
- | |__| | __ _ _ __ __| |_      ____ _ _ __ ___ 
- |  __  |/ _` | '__/ _` \ \ /\ / / _` | '__/ _ \
- | |  | | (_| | | | (_| |\ V  V / (_| | | |  __/
- |_|  |_|\__,_|_|  \__,_| \_/\_/ \__,_|_|  \___|
-                                               
-                                               
-  _    _            _                   _    _       _ _       
- | |  | |          | |                 | |  | |     (_) |      
- | |__| | __ _  ___| | _____ _ __ ___  | |  | |_ __  _| |_ ___ 
- |  __  |/ _` |/ __| |/ / _ \ '__/ __| | |  | | '_ \| | __/ _ \
- | |  | | (_| | (__|   <  __/ |  \__ \ | |__| | | | | | ||  __/
- |_|  |_|\__,_|\___|_|\_\___|_|  |___/  \____/|_| |_|_|\__\___|
-                                                              
-  ** MARVELL BOARD: RD-88F6281A LE
-     
- U-Boot 1.1.4 (Jul 31 2009 - 10:33:00) Marvell version: 3.4.14
-     
- U-Boot code: 00600000 -> 0067FFF0  BSS: -> 006CEE60
-     
- Soc: 88F6281 A0 (DDR2)
- CPU running @ 1000Mhz L2 running @ 333Mhz
- SysClock = 333Mhz , TClock = 200Mhz 
-     
- DRAM CAS Latency = 5 tRP = 5 tRAS = 18 tRCD=6
- DRAM CS[0] base 0x00000000   size  64MB
- DRAM CS[1] base 0x04000000   size  64MB
- DRAM Total size 128MB  16bit width
- Flash:  0 kB
- Addresses 8M - 0M are saved for the U-Boot usage.
- Mem malloc Initialization (8M - 7M): Done
- NAND:256 MB 
-     
- CPU : Marvell Feroceon (Rev 1) 
-     
- Streaming disabled
- Write allocate disabled 
-     
- Module 0 is RGMII
- Module 1 is TDM 
-     
- USB 0: host mode
- PEX 0: interface detected no Link.
- Net:   egiga0, egiga1 [PRIME]
- Hit any key to stop autoboot:  0
- Marvell>>
+    _    _               _    
+   | |  | |             | |                       
+   | |__| | __ _ _ __ __| |_      ____ _ _ __ ___ 
+   |  __  |/ _` | '__/ _` \ \ /\ / / _` | '__/ _ \
+   | |  | | (_| | | | (_| |\ V  V / (_| | | |  __/
+   |_|  |_|\__,_|_|  \__,_| \_/\_/ \__,_|_|  \___|
+                                                 
+                                                 
+    _    _            _                   _    _       _ _       
+   | |  | |          | |                 | |  | |     (_) |      
+   | |__| | __ _  ___| | _____ _ __ ___  | |  | |_ __  _| |_ ___ 
+   |  __  |/ _` |/ __| |/ / _ \ '__/ __| | |  | | '_ \| | __/ _ \
+   | |  | | (_| | (__|   <  __/ |  \__ \ | |__| | | | | | ||  __/
+   |_|  |_|\__,_|\___|_|\_\___|_|  |___/  \____/|_| |_|_|\__\___|
+                                                                
+    ** MARVELL BOARD: RD-88F6281A LE
+       
+   U-Boot 1.1.4 (Jul 31 2009 - 10:33:00) Marvell version: 3.4.14
+       
+   U-Boot code: 00600000 -> 0067FFF0  BSS: -> 006CEE60
+       
+   Soc: 88F6281 A0 (DDR2)
+   CPU running @ 1000Mhz L2 running @ 333Mhz
+   SysClock = 333Mhz , TClock = 200Mhz 
+       
+   DRAM CAS Latency = 5 tRP = 5 tRAS = 18 tRCD=6
+   DRAM CS[0] base 0x00000000   size  64MB
+   DRAM CS[1] base 0x04000000   size  64MB
+   DRAM Total size 128MB  16bit width
+   Flash:  0 kB
+   Addresses 8M - 0M are saved for the U-Boot usage.
+   Mem malloc Initialization (8M - 7M): Done
+   NAND:256 MB 
+       
+   CPU : Marvell Feroceon (Rev 1) 
+       
+   Streaming disabled
+   Write allocate disabled 
+       
+   Module 0 is RGMII
+   Module 1 is TDM 
+       
+   USB 0: host mode
+   PEX 0: interface detected no Link.
+   Net:   egiga0, egiga1 [PRIME]
+   Hit any key to stop autoboot:  0
+   Marvell>>
