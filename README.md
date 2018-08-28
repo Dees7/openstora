@@ -1,14 +1,14 @@
-﻿##info
+﻿## info
 
 The Information in this wiki is not only for Netgear Stora. It's useful for all NAS which use HipServ OS from Axentra. e.g.:
 
 - Seagate GoFlex Home (Marvell "Kirkwood" 88F6281 at 1.2 GHz, 128 MB soldered RAM (Nanya NT5TU64M16DG), 512 MB flash, 10/100/1000 Marvell 88E1116R Gigabit Ethernet)
 - LaCie Ethernet Disk mini – Home Edition
 - Verbatim MediaShare (1TB/2TB/mini)
-- [Raidsonic IcyBox IB-NAS6210](Raidsonic_IcyBox_IB-NAS6210.md) (Same as Stora, but double RAM, 1 drivebay)
+- [Raidsonic IcyBox IB-NAS6210](pages/Raidsonic_IcyBox_IB-NAS6210.md) (Same as Stora, but double RAM, 1 drivebay)
 - Medion Lifecloud 2-bay NAS
 
-##FAQ
+## FAQ
 
 ### Why choose the Stora?
 
@@ -16,7 +16,7 @@ Stora is sold as a cheap home NAS, with mixed reviews. What makes it interesting
 
 ### Do I need an internet connection to use the Stora?
 
-1. If you want [Easy Root Access](Easy_Root_Access.md) you need to register the first user account online before you can SSH in (telnet or tftp methods below can be used without registration)
+1. If you want [Easy Root Access](pages/Easy_Root_Access.md) you need to register the first user account online before you can SSH in (telnet or tftp methods below can be used without registration)
 2. If you ever need to do Stora Recovery
 and obviously 3) if you use any of the Stora's optional online services (Flickr etc. integration)!
 Basically: No, in normal use the Stora is capable of authenticating you on its own, even though by default it redirects you through mystora.com. To fix this see Disable mystora.com redirection. Then you will be able login to the web interface without internet access or if the web site is down.
