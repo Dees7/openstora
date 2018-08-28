@@ -177,7 +177,7 @@ The following methods are much more difficult, so only recommended for advanced 
 * [To Do Index]
 
 
-    _    _               _    
+``    _    _               _    
    | |  | |             | |                       
    | |__| | __ _ _ __ __| |_      ____ _ _ __ ___ 
    |  __  |/ _` | '__/ _` \ \ /\ / / _` | '__/ _ \
@@ -223,4 +223,4 @@ The following methods are much more difficult, so only recommended for advanced 
    PEX 0: interface detected no Link.
    Net:   egiga0, egiga1 [PRIME]
    Hit any key to stop autoboot:  0
-   Marvell>>
+   Marvell>>```
