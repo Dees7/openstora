@@ -75,7 +75,7 @@ You can ignore these messages, it's due to the way the kernel was compiled (with
 
 Having root access to your device is essential if you want to do anything beyond the provided WebUI:
 
-- [Easy Root Access]() (recommended for most users - no hardware tricks involved, but must register the first user account online!)
+- [Easy Root Access](Easy_Root_Access.md) (recommended for most users - no hardware tricks involved, but must register the first user account online!)
 
 The following methods are much more difficult, so only recommended for advanced users or where no internet connection possible.
 
@@ -223,4 +223,5 @@ The following methods are much more difficult, so only recommended for advanced 
    PEX 0: interface detected no Link.
    Net:   egiga0, egiga1 [PRIME]
    Hit any key to stop autoboot:  0
-   Marvell>>```
+   Marvell>>
+
