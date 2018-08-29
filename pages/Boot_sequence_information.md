@@ -1,4 +1,4 @@
-#Boot sequence information
+# Boot sequence information
 
 ## Netgear Stora "dmesg"
 ```
