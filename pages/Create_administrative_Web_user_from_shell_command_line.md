@@ -1,7 +1,7 @@
 # Create administrative Web user from shell command line
 
 There is a script called mkaccount in root home directory (/root). This is a simple one-liner that I've reformatted for legibility:
-```
+```cmd
 /usr/share/homebase-accounts/regserver.pl \
                 --webbased=true \
                 --action=registration \

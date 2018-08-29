@@ -4,7 +4,7 @@ Sometimes it is useful to have a share available with Guest access.
 
 To best use this feature with the Stora, the following is suggested:
 
-- create a new folder \\STORA\FamilyLibrary\Guest (you can do this in Windows)
+- create a new folder \\\\STORA\FamilyLibrary\Guest (you can do this in Windows)
 
 - use vi to edit /etc/samba/smb.conf to add the following
 ```ini
