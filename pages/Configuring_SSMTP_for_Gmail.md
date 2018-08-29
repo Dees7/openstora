@@ -45,7 +45,7 @@ AuthUser=<GMAILUSERNAME>
 AuthPass=<GMAILPASSWORD>
 AuthMethod=LOGIN
 ```
-where <GMAILUSERNAME> is your Gmail username (without the @gmail.com), <GMAILPASSWORD> is your Gmail account password and <YOURHOSTNAME> is supposed to be the full name of the machine sending the mail although in practice it can be set to anything else.
+where \<GMAILUSERNAME\> is your Gmail username (without the @gmail.com), <GMAILPASSWORD> is your Gmail account password and \<YOURHOSTNAME\> is supposed to be the full name of the machine sending the mail although in practice it can be set to anything else.
 
 Also you should edit /etc/ssmtp/ssmtp.revaliases to read
 ```bash
