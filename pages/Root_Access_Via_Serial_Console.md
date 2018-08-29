@@ -12,8 +12,9 @@ Required Items
 - Terminal Emulator
 
 Pin out
-Stora serial Pin|Out Pin| Function| Notes
-----------------|-------|---------|------
+
+Stora serial Pin | Out Pin | Function | Notes
+-----------------|---------|----------|------
 1| 3.3Vdc | Pin is the farthest from the battery, and should contain a white stripe.
 2| RXD    | Recieve Data line from Stora.
 3| TXD    | Transmit Data line from Stora.
