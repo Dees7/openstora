@@ -5,7 +5,7 @@ Note: this limit only applies if you add users through the web interface. After 
 ## Preparation
 
 - You need [Easy Root Access](Easy_Root_Access.md) (or any method of root access)
-- First make sure you [Disable the Access Patrol](Disable_the_Access_Patrol_service.md) service or this number will get reset to 3 (5 on newer firmware) when your Stora next reboots!
+- First make sure you [Disable the Access Patrol](Disable_the_Access_Patrol.md) service or this number will get reset to 3 (5 on newer firmware) when your Stora next reboots!
 
 ## Changing user limit
 
@@ -23,7 +23,7 @@ nano /etc/features.conf
 maxNbUsers=
 ```
 - Change the number (probably 3 or 5) to 0, indicating no limit; save and exit your text editor.
-- Reboot your Stora, make sure the number hasn't reverted to default. If it has, you probably still need to [Disable the Access Patrol service](Disable_the_Access_Patrol_service.md)!
+- Reboot your Stora, make sure the number hasn't reverted to default. If it has, you probably still need to [Disable the Access Patrol service](Disable_the_Access_Patrol.md)!
 
 
 You can now add users through the web interface up to whatever limit you chose.
