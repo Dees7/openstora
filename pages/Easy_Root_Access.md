@@ -29,7 +29,7 @@ You should be presented with a password prompt at this point, simply type the pa
 
 If you're doing all this from a windows computer:
 
-First download [PUTTY.exe](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html (an SSH client) Instead of entering all the above in one line, run Putty and connect to the IP of your Stora on port 22, then enter the username and password separately when prompted exactly as explained above (i.e. USERNAME_hipserv2_netgear_XXXX-XXXX-XXXX-XXXX). You can save the settings in putty so you don't have to type the username every time (look under Connection > Data > Auto-login username)
+First download [PUTTY.exe](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) (an SSH client) Instead of entering all the above in one line, run Putty and connect to the IP of your Stora on port 22, then enter the username and password separately when prompted exactly as explained above (i.e. USERNAME_hipserv2_netgear_XXXX-XXXX-XXXX-XXXX). You can save the settings in putty so you don't have to type the username every time (look under Connection > Data > Auto-login username)
 
 After logging in everything works the same as a Linux SSH client, you can do everything from windows if you want!
 
