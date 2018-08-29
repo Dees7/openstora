@@ -75,11 +75,11 @@ You can ignore these messages, it's due to the way the kernel was compiled (with
 
 Having root access to your device is essential if you want to do anything beyond the provided WebUI:
 
-- [Easy Root Access](Easy_Root_Access.md) (recommended for most users - no hardware tricks involved, but must register the first user account online!)
+- [Easy Root Access](pages/Easy_Root_Access.md) (recommended for most users - no hardware tricks involved, but must register the first user account online!)
 
 The following methods are much more difficult, so only recommended for advanced users or where no internet connection possible.
 
-- [Root Access Via Serial Console]
+- [Root Access Via Serial Console](pages/Root_Access_Via_Serial_Console.md)
 - [Root Access Via TFTP]
 - [Root Access via TelnetEnabled]
 
@@ -103,7 +103,7 @@ The following methods are much more difficult, so only recommended for advanced 
 * [Fixing spindown not working on JBOD setup]
 * [Fixing FamilyLibrary share on Mac (AppleTalk)]
 * [Manual firmware update and info]
-* [USB Serial Adapter]
+* [USB Serial Adapter](pages/USB_Serial_Adapter.md)
 * [Installing Mediatomb]
 * [RSyncBackup]
 * [Power scheduling (advanced/non WebUI) (includes instructions for automatically restarting after a power failure)]
@@ -152,7 +152,7 @@ The following methods are much more difficult, so only recommended for advanced 
 * [How to install your custom firmware]
 * [EasyHackStoraLiveCd]
 * [Emdebian Alternative firmware]
-* [Using A Serial Connection]
+* [Using A Serial Connection](pages/Using_A_Serial_Connection.md)
 * [Adding an Internal USB Hub]
 
 
@@ -169,7 +169,7 @@ The following methods are much more difficult, so only recommended for advanced 
 
 * [Jtag Pinout]
 * [Parts List]
-* [Boot sequence information]
+* [Boot sequence information](Boot_sequence_information.md)
 * [PCB Photos]
 * [Test Points on Stora PCB]
 * [Source Code]
