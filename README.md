@@ -169,7 +169,7 @@ The following methods are much more difficult, so only recommended for advanced 
 
 * [Jtag Pinout]
 * [Parts List]
-* [Boot sequence information](Boot_sequence_information.md)
+* [Boot sequence information](pages/Boot_sequence_information.md)
 * [PCB Photos]
 * [Test Points on Stora PCB]
 * [Source Code]

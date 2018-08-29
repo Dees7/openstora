@@ -94,8 +94,7 @@ dpkg-reconfigure tzdata
 
 Create the /etc/fstab
 
-```
-#
+```bash
 # /etc/fstab: static file system information.
 #
 # file system   mount       type    options           dump    pass
@@ -119,9 +118,9 @@ mount /dev/pts
 ### Setup APT repository
 
 Create the file: /etc/apt/sources.list
-```
+```bash
 deb http://www.emdebian.org/grip/ squeeze main
-##deb http://ftp.gva.es/mirror/debian/ squeeze main contrib non-free
+#deb http://ftp.gva.es/mirror/debian/ squeeze main contrib non-free
 deb-src http://www.emdebian.org/grip/ squeeze main
 ```
 Install SSH
