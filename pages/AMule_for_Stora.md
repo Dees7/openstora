@@ -89,10 +89,10 @@ as root user.
 
 - if everything is ok, and you want to do so, add amuled to the startup scripts:
 
-```
+```bash
    chkconfig --add amuled
    chkconfig --levels 2345 amuled on
-
+```
 
 That's it!
 
