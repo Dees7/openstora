@@ -30,7 +30,7 @@ If you wish to add extra functionality to the script, please do so, but make sur
 
 ## Script
 
-```
+```bash
 #!/bin/sh
 ######################################################
 # storaSetup.sh
