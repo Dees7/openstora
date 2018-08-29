@@ -43,8 +43,8 @@ aMule version 2.2.6 compiled to work on the original Netgear Stora firmware. I i
 - move the webserver directory under the newly created .aMule directory
 
 ```
-   mv webserver /home/<your_user>/.aMule/
-
+mv webserver /home/<your_user>/.aMule/
+```
 
 - open /home/<your_user>/.aMule/remote.conf, this is the config file for the web interface, you need to change some values:
 
