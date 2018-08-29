@@ -2,7 +2,7 @@
 
 There is a script called mkaccount in root home directory (/root). This is a simple one-liner that I've reformatted for legibility:
 ```
-  /usr/share/homebase-accounts/regserver.pl \
+/usr/share/homebase-accounts/regserver.pl \
                 --webbased=true \
                 --action=registration \
                 --version=2.1.0 \
@@ -17,9 +17,9 @@ There is a script called mkaccount in root home directory (/root). This is a sim
 Let's say you want to create a user named justdoit with a password imeannow.
 
 All you need to do, is
-```
-# cd
-# echo 'imeannow' | ./mkaccount justdoit
+```bash
+cd
+echo 'imeannow' | ./mkaccount justdoit
 ```
 This will run in a few seconds, echoing back its progress:
 ```
