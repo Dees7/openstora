@@ -11,14 +11,16 @@ Required Items
 - RS232 to serial converter (must work with cmos level serial devices)
 - Terminal Emulator
 
-Pin out
+## Pin out
 
-Stora serial Pin | Out Pin | Function | Notes
------------------|---------|----------|------
-1| 3.3Vdc | Pin is the farthest from the battery, and should contain a white stripe.
-2| RXD    | Recieve Data line from Stora.
-3| TXD    | Transmit Data line from Stora.
-4| GND    | Ground.
+Stora serial Pin Out
+
+Pin | Function | Notes
+----|----------|------
+1 | 3.3Vdc | Pin is the farthest from the battery, and should contain a white stripe.
+2 | RXD    | Recieve Data line from Stora.
+3 | TXD    | Transmit Data line from Stora.
+4 | GND    | Ground.
 
 You will need to [acquire](http://www.usconverters.com/?gclid=CLiU5NjCn6ECFdFW2god0iyUxA) or [build](http://www.lammertbies.nl/comm/info/RS-232_null_modem.html) a [RS232](http://en.wikipedia.org/wiki/RS-232) converter.
 
