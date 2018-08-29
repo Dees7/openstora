@@ -7,35 +7,35 @@ aMule version 2.2.6 compiled to work on the original Netgear Stora firmware. I i
 - un-tar-gz the amuled.tar.gz
 
 ```
-   tar xvfz amuled.tar.gz
+tar xvfz amuled.tar.gz
 ```
 
 - move "amuled" and "amuleweb" under /usr/bin (or wherever you like)
 
 ```
-   mv amuled /usr/bin
-   mv amuleweb /usr/bin
+mv amuled /usr/bin
+mv amuleweb /usr/bin
 ```
 
 - move "init.d/amuled" to /etc/init.d, this is the starting script
 
 ```
-   mv init.d/amuled /etc/init.d
+mv init.d/amuled /etc/init.d
 ```
 
 - run amuled as regular user for the first time to create config files, directories and enable External Connections
 
 ```
-   su - <regular_user> #change to regular user if you're root
-   amuled -e
-   # choose a password for external connections
-   # hit ctrl+c
+su - <regular_user> #change to regular user if you're root
+amuled -e
+# choose a password for external connections
+# hit ctrl+c
 ```
 
 - run amuleweb for the first time (as regular user) to create config file
 
 ```
-   amuleweb -w
+amuleweb -w
 ```
 
 - now you should have all the configuration files under /home/<your_user>/.aMule which is not bad since /home is on the hard disk, not on flash, you can edit amule.conf to suite your needs (you may want to change IncomingDir), also copy down the value for ECPassword, which is the MD5 encrypted password you entered earlier, you'll need it for the amuleweb.conf
@@ -49,12 +49,12 @@ mv webserver /home/<your_user>/.aMule/
 - open /home/<your_user>/.aMule/remote.conf, this is the config file for the web interface, you need to change some values:
 
 ```
-  - Password= (the password amuleweb uses to connect to amuled)
-              paste the ECPassword you copied from amule.conf
-  - AdminPassword= (the password you'll use to connect to the web interface)
-                   I used the same password above, if you want to use different one you'll need to md5 encrypt it before placing it into the config.
-  - Template= (the skin used for the web interface)
-              I strongly suggest you to replace the "php-default" with "litoral" which is way much better than the "php-default" skin.
+- Password= (the password amuleweb uses to connect to amuled)
+            paste the ECPassword you copied from amule.conf
+- AdminPassword= (the password you'll use to connect to the web interface)
+                 I used the same password above, if you want to use different one you'll need to md5 encrypt it before placing it into the config.
+- Template= (the skin used for the web interface)
+            I strongly suggest you to replace the "php-default" with "litoral" which is way much better than the "php-default" skin.
 ```
 
 Other skins you can use are: "default" and "chicane".
@@ -62,15 +62,15 @@ Other skins you can use are: "default" and "chicane".
 - I included a basic server.met downloaded from [here](http://www.server-met.de/) you can download a new one if you wish, you then need to move it under the .aMule directory
 
 ```
-   mv server.met /home/<your_user>/.aMule/
+mv server.met /home/<your_user>/.aMule/
 ```
 
 - test if everything works: run amuled in foreground, open a new shell and run amuleweb, then try to connect to http://<stora.ip>:4711/
 
 ```
-   amuled -i -o (make sure you're a regular user)
-   # Open a new ssh session
-   amuleweb (once again, make sure you're a regular user)
+amuled -i -o (make sure you're a regular user)
+# Open a new ssh session
+amuleweb (once again, make sure you're a regular user)
 ```
 
 Then try to connect to http://<stora.ip>:4711/ you should be asked for a password, enter it and you're done! If anything goes wrong, check both the ssh windows and see if there are errors logged.
@@ -80,9 +80,9 @@ Then try to connect to http://<stora.ip>:4711/ you should be asked for a passwor
 - try if everything works by issuing:
 
 ```
-   /etc/init.d/amuled start
-   /etc/init.d/amuled status
-   /etc/init.d/amuled stop
+/etc/init.d/amuled start
+/etc/init.d/amuled status
+/etc/init.d/amuled stop
 ```
 
 as root user.
@@ -90,8 +90,8 @@ as root user.
 - if everything is ok, and you want to do so, add amuled to the startup scripts:
 
 ```bash
-   chkconfig --add amuled
-   chkconfig --levels 2345 amuled on
+chkconfig --add amuled
+chkconfig --levels 2345 amuled on
 ```
 
 That's it!
