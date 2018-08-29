@@ -19,9 +19,9 @@ Now restart samba to make your share visible, type:
 ```
 /etc/init.d/smb restart
 ```
-All Stora users can see and access \\STORA\FamilyLibrary\Guest with full privileges. Thus they can place content here.
+All Stora users can see and access \\\\STORA\FamilyLibrary\Guest with full privileges. Thus they can place content here.
 
-Any network user can access \\STORA\FamilyLibrary\Guest readonly.
+Any network user can access \\\\STORA\FamilyLibrary\Guest readonly.
 
 All users includes simple network devices such as media players (useful for UPNP unsupported content).
 
