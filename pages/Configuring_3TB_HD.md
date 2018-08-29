@@ -42,9 +42,8 @@ or
 ./mdadm --create /dev/md0 --level=1 --chunk=128 --raid-devices=2 /dev/sda1 /dev/sdb1
 y
 ```
-- Wait for sync **Takes Long Time** Mine took 4 1/2 hours.
+- Wait for sync **Takes Long Time** Mine took 4 1/2 hours watching
 
-watch
 ```
 cat /proc/mdstat (also shows in web interface)
 ```
