@@ -1,6 +1,6 @@
 # Getting Started
 
-#This guide explains how to begin hacking a Stora, and also what order to do things in.
+This guide explains how to begin hacking a Stora, and also what order to do things in.
 
 Note that whenever I refer to the "WebUI" I am talking about the flash based interface that you log into by typing your Stora's IP into your web browser. Everything else is done over SSH.
 
