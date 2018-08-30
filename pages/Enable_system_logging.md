@@ -61,9 +61,9 @@ Edit the logrotate configuration for syslogd, /etc/logrotate.d/syslog, and chang
 ```
 ## Note on GoFlex Home
 
-In the GoFlex Home, the **/home** directory is actually in the internal memory and, then, writing your logs there is not a good idea since it may fill your internal memory and it will wear out. You may want to change **/home** in all the previous discussion by **/mnt/eSata/.users/** that is where the users directories are actually stored in the hard disk or to any other folder under **/mnt/eSata**.
+In the GoFlex Home, the `/home` directory is actually in the internal memory and, then, writing your logs there is not a good idea since it may fill your internal memory and it will wear out. You may want to change `/home` in all the previous discussion by `/mnt/eSata/.users/` that is where the users directories are actually stored in the hard disk or to any other folder under `/mnt/eSata`.
 
-If you do not mind that your logs are in the public samba share, you can use */home/0common* as it is an alias for the public samba share.
+If you do not mind that your logs are in the public samba share, you can use `/home/0common` as it is an alias for the public samba share.
 
 --Pippone 12:55, 22 May 2010 (UTC)
 
