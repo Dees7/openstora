@@ -1,3 +1,6 @@
+#OpenStora Wiki
+It is a mirror of http://www.openstora.com/wiki from [web.archive.org](https://web.archive.org/web/20170519215850/http://www.openstora.com:80/wiki/index.php?title=Main_Page)
+
 ## info
 
 The Information in this wiki is not only for **Netgear Stora**. It's useful for all NAS which use **HipServ OS** from Axentra. e.g.:
