@@ -10,7 +10,7 @@ now the FamilyLibrary share will show you all the content!
 
 --Pippone 07:17, 28 October 2010 (UTC)
 
-As you said Pippone [1], the procedure to get it work now is the following:
+As you said Pippone [here](http://www.openstora.com/forum/viewtopic.php?p=9243#p9243), the procedure to get it work now is the following:
 
 - become root
 - go inside your user's home directory, eg: `/home/stora`
