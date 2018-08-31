@@ -9,5 +9,5 @@ TP5 | JTAG | TCLK
 TP6 | JTAG | TDO
 
 
-Test point locations on Stora PCB
+## Test point locations on Stora PCB
 ![Test Points](https://octodex.github.com/images/yaktocat.png)
