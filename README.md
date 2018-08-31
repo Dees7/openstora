@@ -83,101 +83,101 @@ Having root access to your device is essential if you want to do anything beyond
 The following methods are much more difficult, so only recommended for advanced users or where no internet connection possible.
 
 - [Root Access Via Serial Console](pages/Root_Access_Via_Serial_Console.md)
-- [Root Access Via TFTP]
-- [Root Access via TelnetEnabled]
+- [Root Access Via TFTP](pages/Root_Access_Via_TFTP.md)
+- [Root Access via TelnetEnabled](pages/Root_Access_via_TelnetEnabled.md)
 
 ## Configuration
 
-* [Getting Started - the first steps for most users]
-* [Disabling updates and external access]
-* [Enabling secure FTP]
-* [Enabling the Root Account]
-* [Create administrative Web user from shell command line]
-* [Create a Share with Guest Access]
-* [Disabling UPnP]
-* [Modify Stora Firewall]
-* [Disable mystora.com redirection]
-* [Enable system logging]
-* [Disabling Access Patrol]
-* [Modifying spin-down settings]
-* [Changing User Limit]
-* [Changing hostname]
-* [Fixing smartmontools]
-* [Fixing spindown not working on JBOD setup]
-* [Fixing FamilyLibrary share on Mac (AppleTalk)]
-* [Manual firmware update and info]
+* [Getting Started - the first steps for most users](pages/Getting_Started.md)
+* [Disabling updates and external access](pages/Disabling_updates_and_external_access.md)
+* [Enabling secure FTP](pages/Enabling_secure_FTP.md)
+* [Enabling the Root Account](pages/Enabling_the_Root_Account.md)
+* [Create administrative Web user from shell command line](pages/Create_administrative_Web_user_from_shell_command_line.md)
+* [Create a Share with Guest Access](pages/Create_a_Share_with_Guest_Access.md)
+* [Disabling UPnP](pages/Disabling_UPnP.md)
+* [Modify Stora Firewall](pages/Modify_Stora_Firewall.md)
+* [Disable mystora.com redirection](pages/Disable_mystora.com_redirection.md)
+* [Enable system logging](pages/Enable_system_logging.md)
+* [Disabling Access Patrol](pages/Disabling_Access_Patrol.md)
+* [Modifying spin-down settings](pages/Modifying_spin-down_settings.md)
+* [Changing User Limit](pages/Changing_User_Limit.md)
+* [Changing hostname](pages/Changing_hostname.md)
+* [Fixing smartmontools](pages/Fixing_smartmontools.md)
+* [Fixing spindown not working on JBOD setup](pages/Fixing_spindown_not_working_on_JBOD_setup.md)
+* [Fixing FamilyLibrary share on Mac (AppleTalk)](pages/Fixing_FamilyLibrary_share_on_Mac_AppleTalk.md)
+* [Manual firmware update and info](pages/Manual_firmware_update_and_info.md)
 * [USB Serial Adapter](pages/USB_Serial_Adapter.md)
-* [Installing Mediatomb]
-* [RSyncBackup]
-* [Power scheduling (advanced/non WebUI) (includes instructions for automatically restarting after a power failure)]
-* [Services overview]
-* [Make your Stora responsive even while its downloading]
-* [Configuring SSMTP for Gmail]
-* [Mount Stora as NFS on Linux]
-* [Configuring 3TB HD]
+* [Installing Mediatomb](pages/Installing_Mediatomb.md)
+* [RSyncBackup](pages/RSyncBackup.md)
+* [Power scheduling (advanced/non WebUI) (includes instructions for automatically restarting after a power failure)](pages/Power_scheduling_advanced_non_WebUI.md)
+* [Services overview](pages/Services_overview.md)
+* [Make your Stora responsive even while its downloading](pages/Make_your_Stora_responsive_even_while_its_downloading.md)
+* [Configuring SSMTP for Gmail](pages/Configuring_SSMTP_for_Gmail.md)
+* [Mount Stora as NFS on Linux](pages/Mount_Stora_as_NFS_on_Linux.md)
+* [Configuring 3TB HD](pages/Configuring_3TB_HD.md)
 
 ## Recovery
 
-* [Stora Recovery] (firmware reinstall procedure, 'unbricking')
-* [Seagate GoFlex Home Recovery] (firmware reinstall procedure, 'unbricking')
-* [Harddrive Recovery]
-* [Harddrive Recovery / Transfer to New Drive in Stora]
+* [Stora Recovery](pages/Stora_Recovery.md) (firmware reinstall procedure, 'unbricking')
+* [Seagate GoFlex Home Recovery](pages/Seagate_GoFlex_Home_Recovery.md) (firmware reinstall procedure, 'unbricking')
+* [Harddrive Recovery](pages/Harddrive_Recovery.md)
+* [Harddrive Recovery / Transfer to New Drive in Stora](pages/Harddrive_Recovery_Transfer_to_New_Drive_in_Stora.md)
 
 ##  Software addons for the original Stora firmware (stock firmware)
 
-* [sshd substitution]
-* [Transmission torrent client]
-* [Unrar for Stora]
-* [aMule for Stora]
-* [PlowShare for Stora]
-* [pyLoad]
-* [Installing a package manager]
-* [Installing Screen (Manager shell sessions)]
-* [Kernel mode NFS]
-* [Installing userland NFS (UNFSD)]
-* [Installing a Proxy Server]
-* [Installing iSCSI Enterprise Target]
-* [Installing Squeezebox Server]
-* [Installing inadyn]
-* [All-In-One Installer Script]
-* [miniDLNA for Stora]
-  * [Updating miniDLNA]
-  * [Troubleshooting media formats]
-* [ Hamachi for Stora]
-* [Installing Sick Beard]
-* [Installing Couch Potato]
-* [Extract-xiso]
-* [Stora as OpenVPN server]
+* [sshd substitution](pages/Sshd_substitution.md)
+* [Transmission torrent client](pages/Transmission_torrent_client.md)
+* [Unrar for Stora](pages/Unrar_for_Stora.md)
+* [aMule for Stora](pages/AMule_for_Stora.md)
+* [PlowShare for Stora](pages/PlowShare_for_Stora.md)
+* [pyLoad](pages/PyLoad.md)
+* [Installing a package manager](pages/Installing_a_package_manager.md)
+* [Installing Screen (Manager shell sessions)](pages/Installing_Screen_Manager_shell_sessions.md)
+* [Kernel mode NFS](pages/Kernel_mode_NFS.md)
+* [Installing userland NFS (UNFSD)](pages/Installing_userland_NFS_UNFS.md)
+* [Installing a Proxy Server](pages/Installing_a_Proxy_Server.md)
+* [Installing iSCSI Enterprise Target](pages/Installing_iSCSI_Enterprise_Target.md)
+* [Installing Squeezebox Server](pages/Installing_Squeezebox_Server.md)
+* [Installing inadyn](pages/Installing_inadyn.md)
+* [All-In-One Installer Script](pages/All-In-One_Installer_Script.md)
+* [miniDLNA for Stora](pages/MiniDLNA_for_Stora.md)
+  * [Updating miniDLNA](pages/MiniDLNA_for_Stora_Updating.md)
+  * [Troubleshooting media formats](pages/MiniDLNA_for_Stora_Media_Formats.md)
+* [Hamachi for Stora](pages/Hamachi_for_Stora.md)
+* [Installing Sick Beard](pages/Installing_Sick_Beard.md)
+* [Installing Couch Potato](pages/Installing_Couch_Potato.md)
+* [Extract-xiso](pages/Extract-xiso.md)
+* [Stora as OpenVPN server](pages/Stora_as_OpenVPN_server.md)
 
 ## Projects
 
-* [How to install Debian Linux on NETGEAR Stora]
-* [How to install your custom firmware]
-* [EasyHackStoraLiveCd]
-* [Emdebian Alternative firmware]
+* [How to install Debian Linux on NETGEAR Stora](pages/How_to_install_Debian_Linux_on_NETGEAR_Stora.md)
+* [How to install your custom firmware](pages/How_to_install_your_custom_firmware.md)
+* [EasyHackStoraLiveCd](pages/EasyHackStoraLiveCd.md)
+* [Emdebian Alternative firmware](pages/Emdebian_Alternative_firmware.md)
 * [Using A Serial Connection](pages/Using_A_Serial_Connection.md)
-* [Adding an Internal USB Hub]
+* [Adding an Internal USB Hub](pages/Adding_an_Internal_USB_Hub.md)
 
 
 ## Software addons for other custom firmwares (aka emDebian, etc...)
 
-* [Installing MiniDLNA]
-* [Installing Webmin]
-* [Prevent unclean filesystems from blocking the boot process]
-* [Use the stora as a printserver]
-* [Use the stora as a soundproxy]
-* [Compile the kernel]
+* [Installing MiniDLNA](pages/Installing_MiniDLNA.md)
+* [Installing Webmin](pages/Installing_Webmin.md)
+* [Prevent unclean filesystems from blocking the boot process](pages/Prevent_unclean_filesystems_from_blocking_the_boot_process.md)
+* [Use the stora as a printserver](pages/Use_the_stora_as_a_printserver.md)
+* [Use the stora as a soundproxy](pages/Use_the_stora_as_a_soundproxy.md)
+* [Compile the kernel](pages/Compile_the_kernel.md)
 
 ## Technical Information
 
-* [Jtag Pinout]
-* [Parts List]
+* [Jtag Pinout](pages/Jtag_Pinout.md)
+* [Parts List](pages/Parts_List.md)
 * [Boot sequence information](pages/Boot_sequence_information.md)
-* [PCB Photos]
-* [Test Points on Stora PCB]
-* [Source Code]
-* [Development HOWTOS]
-* [To Do Index]
+* [PCB Photos](pages/PCB_Photos.md)
+* [Test Points on Stora PCB](pages/Test_Points.md)
+* [Source Code](pages/Source_Code.md)
+* [Development HOWTOS](pages/Development_HOWTOS.md)
+* [To Do Index](pages/To_Do_Index.md)
 
 
 ```    _    _               _    
