@@ -171,9 +171,9 @@ Then, at shutdown the system notices that fact, and nicely runs our script as de
 
 When we run chkconfig with the --add option as above, it does a lot of dirty work for us, based upon 
 the presence of this line in the script:
-
+```
 # chkconfig: 12345 90 80
-
+```
 By this, chkconfig knows that we want the "start" parameter passed at startup time to our script for run
 levels 1,2,3,4, and 5. It assumes then that for all unmentioned run levels (so, 0 and 6 in this case), a 
 "stop" parameter should be passed at shutdown time.  Based on this, it creates links to our script in 
