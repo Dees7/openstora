@@ -34,12 +34,8 @@ Update name | Firmware version  |  Updates from  |  Version name |   Download UR
 ------------|-------------------|----------------|---------------|----------------|-------------|-------
 **hbs-5044**| 2.0.0.433 | 426,427      |  2.6.1  | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5044.upd  | No Changelog available. |
 **hbs-5043**| 2.0.0.427 | 419,420,422  |  2.6    | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5043.upd  | http://support.netgear.hipserv.com/release_notes/v_2_6.html  |   adds iTunes 10.5 support
-hbs-5042    | 2.0.0.420 | 377          |  2.5.3  | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5042.upd  | Forum notes http://www.openstora.com/phpBB3/viewtopic.php?f=18&t=1164 
-** BETA** release - MySync support, OSX Lion Timemachine fixes replaces HBS-5040 |
-    
-hbs-5040    | 2.0.0.417 | 377          | 2.5.3   | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5040.upd  | Forum notes http://www.openstora.com/phpBB3/viewtopic.php?f=18&t=1086
-**BETA** release - MySync support |
-    
+hbs-5042    | 2.0.0.420 | 377          |  2.5.3  | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5042.upd  | Forum notes http://www.openstora.com/phpBB3/viewtopic.php?f=18&t=1164 ** BETA** release - MySync support, OSX Lion Timemachine fixes replaces HBS-5040 |
+hbs-5040    | 2.0.0.417 | 377          | 2.5.3   | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5040.upd  | Forum notes http://www.openstora.com/phpBB3/viewtopic.php?f=18&t=1086 **BETA** release - MySync support |
 **hbs-5037**| 2.0.0.377 | 365,368,374  |   2.5.1 | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5037.upd  | http://support.netgear.hipserv.com/release_notes/v_2_5_1.html |  
 **hbs-5036**| 2.0.0.368 | 365          |   2.5   | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5036.upd  | http://support.netgear.hipserv.com/release_notes/v_2_5.html   |  
 **hbs-5035**| 2.0.0.368 | 145,146,149  |   2.5   | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5035.upd  | http://support.netgear.hipserv.com/release_notes/v_2_5.html   |  
