@@ -61,7 +61,7 @@ hbs-5006    | 2.0.0.77  | 50           | 1.1     |                              
 hbs-5002    | 2.0.0.53  | 52           | 1.0     | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5002.upd  |                                                               |
             | 2.0.0.52  |              |         |                                                                |                                                               |
 hbs-5001    | 2.0.0.50  | 36           |1.0      | http://netgear.hipserv.com/updates/netgear/v_2_0/hbs-5001.upd  |                                                               |
-            | 2.0.0.36  |              |         |                                                                |                                                               |
+??          | 2.0.0.36  |              |         |                                                                |                                                               |
 
 ## Manually check for available firmware update
 
