@@ -14,7 +14,7 @@ The Information in this wiki is not only for **Netgear Stora**. It's useful for 
 ## FAQ
 ### Can I connect to stora without the Internet?
 
-Open `http://\<StoraIP\>/?local=1`
+Open `http://<StoraIP>/?local=1`
 
 ### Why choose the Stora?
 
