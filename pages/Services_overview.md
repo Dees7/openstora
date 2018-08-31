@@ -28,79 +28,104 @@ Just a writeup of all the services I encountered on my Stora. Use this list to d
 - access-patrol
 Evil application. See [Disabling Access Patrol](Disabling_Access_Patrol.md).
 
-- admin-db
+- **admin-db**
+
 Reapply settings saved in admin-db.xml after a restore.
 
-- atalk
+- **atalk**
+
 This package enables Linux to talk to Macintosh computers via the AppleTalk networking protocol and provides printer, file sharing, and AppleTalk routing services.
 
-- avahi-daemon
+- **avahi-daemon**
+
 This is a daemon which runs on client machines to perform Zeroconf service discovery on a network. avahi-daemon must be running on systems that use Avahi for service discovery. Avahi-daemon should not be running otherwise.
 
-- axentra_reset
+- **axentra_reset**
+
 resets the server configuration whenever 'reset' key is detected on the kernel command line. Plain and simple!
 
-- crond
+- **crond**
+
 cron is a standard UNIX program that runs user-specified programs at periodic scheduled times. vixie cron adds a number of features to the basic UNIX cron, including better security and more powerful configuration options.
 
-- cups
+- **cups**
+
 Common UNIX Printing System (CUPS)
 
-- httpd
+- **httpd**
+
 Startup script for the Apache HTTP Server
 
-- igd-daemon (upnp-igd)
+- **igd-daemon (upnp-igd)**
+
 UPnP Internet Gateway Device client
 
-- locator
+- **locator**
+
 UDP broadcast of HipServ's presence
 
-- mdmonitor
+- **mdmonitor**
+
 The mdmonitor service checks the status of all software RAID arrays on the system. In the event that any of the arrays transition into a degraded state, it notifies the system administrator. Other options are available, see the mdadm.conf and mdadm man pages for possible ways to configure this service.
 
-- messagebus
+- **messagebus**
+
 This is a daemon which broadcasts notifications of system events and other messages. See http://www.freedesktop.org/software/dbus/
 
-- minidlna
+- **minidlna**
+
 MiniDlna Media server
 
-- mt-daapd
+- **mt-daapd**
+
 mt-daapd is a multi-threaded DAAP server for iTunes
 
-- mynetworkd
+- **mynetworkd**
+
 takes care of restarting some services (dlna, upnp, port forwarding) when your network configuration (like Stora's ip) changes, you can probably get rid of it.
 
-- netgear-lifecycle
+- **netgear-lifecycle**
+
 netgear-lifecycle is used to update led in case one of your hard drive fails and probably some other hardware related functions.
 
-- ntpd
+- **ntpd**
+
 ntpd is the NTPv4 daemon. The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a rad
 
-- oe-appserverd
+- **oe-appserverd**
+
 that's the whole server behind the nice flash web interface, it allows the Stora to create thumbnails of pictures, change system settings, etc, you don't want to disable it if you want to keep using the web interface.
 
-- oe-spd
+- **oe-spd**
+
 Runs the System Proxy, which performs certain operations that Penzila applications require as root
 
-- portmap
+- **portmap**
+
 The portmapper manages RPC connections, which are used by protocols such as NFS and NIS. The portmap server must be running on machines which act as servers for protocols which make use of the RPC mechanism.
 
-- smb
+- **smb**
+
 Samba daemon. Provides files sharing using the windows method.
 
-- sshd
+- **sshd**
+
 OpenSSH server daemon
 
-- syslog
+- **syslog**
+
 Syslog is the facility by which many daemons use to log messages to various system log files. It is a good idea to always run syslog.
 
-- transmission-daemon
+- **transmission-daemon**
+
 Bittorent client
 
-- vsftpd
+- **vsftpd**
+
 vsftpd is a Very Secure FTP daemon. It was written completely from scratch
 
-- xinetd
+- **xinetd**
+
 xinetd is a powerful replacement for inetd. xinetd has access control mechanisms, extensive logging capabilities, the ability to make services available based on time, and can place limits on the number of servers that can be started, among other things.
 
 --Preaper 22:08, 6 February 2011 (UTC)
