@@ -115,7 +115,7 @@ The following methods are much more difficult, so only recommended for advanced 
 * [Configuring SSMTP for Gmail](pages/Configuring_SSMTP_for_Gmail.md)
 * [Mount Stora as NFS on Linux](pages/Mount_Stora_as_NFS_on_Linux.md)
 * [Configuring 3TB HD](pages/Configuring_3TB_HD.md)
-
+* [Controling Front LEDs](pages/Controling_Front_LEDs.md)
 ## Recovery
 
 * [Stora Recovery](pages/Stora_Recovery.md) (firmware reinstall procedure, 'unbricking')
