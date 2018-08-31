@@ -12,6 +12,9 @@ The Information in this wiki is not only for **Netgear Stora**. It's useful for 
 - Medion Lifecloud 2-bay NAS
 
 ## FAQ
+### Can I connect to stora without the Internet?
+
+Open `http://\<StoraIP\>/?local=1`
 
 ### Why choose the Stora?
 
