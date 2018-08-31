@@ -135,7 +135,7 @@ If started in Rebuild mode, miniDLNA will continue to run after the rebuild is f
 
 ### The miniDLNA configuration file:
 
-Filename: /etc/miniupnpd/minidlna.conf
+Filename: `/etc/miniupnpd/minidlna.conf`
 
 The file itself contains comments that should allow you to see what things are and what you can do. Items that might be of interest to those who have not looked at the file yet are:
 
