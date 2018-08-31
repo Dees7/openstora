@@ -1,6 +1,6 @@
 # Parts List
 ## TWSI
--    | Address | ChipLoc | PartNum | Description   |  Useful links
+TWSI | Address | ChipLoc | PartNum | Description   |  Useful links
 -----|---------|---------|---------|---------------|--------------
 TWSI |  0x1b  | u17  |  TC654      | Microchip fan controller. | [Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/21734a.pdf)
 TWSI |  0x64  | u15  |  PCF8563    | RTC.                      | [Datasheet](http://www.nxp.com/documents/data_sheet/PCF8563.pdf)
